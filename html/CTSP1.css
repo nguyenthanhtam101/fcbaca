@@ -154,14 +154,14 @@ li{
 
 .button-row button {
     margin-right: 5px;
-    padding: 10px 20px; /* Điều chỉnh padding để làm to button */
-    font-size: 16px; /* Điều chỉnh kích thước chữ */
-    border-radius: 5px; /* Bo góc button */
-    transition: all 0.3s ease; /* Hiệu ứng hover */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: all 0.3s ease;
 }
 .button-row button:hover {
-    background-color: #ccc; /* Màu nền khi di chuột */
-    color: #fff; /* Màu chữ khi di chuột */
+    background-color: #ccc;
+    color: #fff; 
 }
 .star-row i {
     margin-right: 3px;
@@ -213,23 +213,23 @@ li{
 
 .footer ul li {
     margin-bottom: 5px;
-    display: flex; /* Sử dụng flexbox để căn chỉnh biểu tượng và văn bản */
-    align-items: center; /* Căn chỉnh văn bản và biểu tượng theo chiều dọc */
+    display: flex; 
+    align-items: center; 
 }
 
 .icon {
-    margin-right: 10px; /* Tạo khoảng cách giữa biểu tượng và văn bản */
-    width: 25px; /* Đảm bảo kích thước đồng đều cho tất cả các biểu tượng */
-    text-align: center; /* Căn giữa nội dung trong thẻ span */
+    margin-right: 10px; 
+    width: 25px; 
+    text-align: center; 
 }
 .icon i {
-    font-size: 20px; /* Đảm bảo kích thước đồng đều cho tất cả các biểu tượng */
+    font-size: 20px; 
 }
 
 .ft1 ul {
     display: flex;
-    flex-direction: column; /* Chỉ định hướng dọc cho danh sách */
-    padding-left: 60px; /* Thụt vào trong một khoảng 20px */
+    flex-direction: column; 
+    padding-left: 60px; 
     font-size: 30px;
 }
 .ft1 .social-list {
@@ -245,8 +245,8 @@ li{
 }
 .ft2 ul {
     display: flex;
-    flex-direction: column; /* Chỉ định hướng dọc cho danh sách */
-    padding-left: 60px; /* Thụt vào trong một khoảng 20px */
+    flex-direction: column; 
+    padding-left: 60px; 
     font-size: 30px;
 }
 .ft2 b{
@@ -267,17 +267,17 @@ li{
     font-size: 20px;
 }
 .ft4 {
-    text-align: center; /* Căn giữa nội dung */
+    text-align: center; 
 }
 
 .ft4 a {
-    margin: 0 10px; /* Khoảng cách giữa các liên kết */
-    text-decoration: none; /* Loại bỏ gạch chân */
-    color: #fff8f8; /* Màu chữ */
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #fff8f8; 
 }
 
 .ft4 a:hover {
-    text-decoration: underline; /* Gạch chân khi hover */
+    text-decoration: underline; 
 }
 .icon1{
     margin-right: 25px; 
