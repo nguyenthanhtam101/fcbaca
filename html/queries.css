@@ -1,0 +1,218 @@
+/* Nest Hub Max */
+@media screen and (min-width: 992px) and (max-width:1200px){
+    .menuhead ul li{
+        font-size: 20px;
+    }   
+    .menuhead ul {
+        display: block; 
+    }
+    .headerlogo {
+        margin-left: 40px;
+   }
+    .menuhead ul{
+        padding-left: 0px;
+    }
+    .text-sp{
+        font-size:40px ;
+    }
+    .text-ft{
+        font-size: 150px;
+    }
+    .iconhead ul li{
+        padding-left: 15px;
+    }
+    .iconhead ul{
+        padding-left: 50px;
+    }
+    .sp-button{
+        font-size: 16px;
+   }
+   .banner-button{
+        font-size: 16px;
+   }
+    .btnsp-container {
+        position: absolute;
+        top: 6%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+   .text-sp{
+        font-size:30px ;
+        top: 6%;
+        left: 59%;
+    }
+    .text-ft{
+        font-size: 100px;
+    }
+    .icon1 i{
+        font-size: 35px;
+    }
+    #search-box:hover #search-text, 
+    #search-box #search-text:valid {
+    width: 0px;
+    padding:  0px;
+
+    }
+
+}
+
+/* Ipad */
+@media screen and (min-width: 768px ) and (max-width:991px) {
+    .menuhead ul li{
+        font-size: 13px;
+    }   
+    .menuhead ul {
+        display: block; 
+    }
+    .menuhead ul li a{
+        font-size: 13px;
+    }
+    .headerlogo {
+        margin-left: 20px;
+   }
+    .menuhead ul{
+        padding-left: 0px;
+    }
+    .text-sp{
+        font-size:40px ;
+    }
+    .text-ft{
+        font-size: 150px;
+    }
+    .iconhead ul li{
+        padding-left: 4px;
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    .iconhead ul{
+        padding-left: 20px;
+        position: absolute;
+        right: 15%;
+    }
+    .sp-button{
+        font-size: 13px;
+   }
+   .banner-button{
+        font-size: 13px;
+   }
+    .btnsp-container {
+        position: absolute;
+        top: 7%;
+        left: 41%;
+        transform: translate(-50%, -50%);
+    }
+   .text-sp{
+        font-size:30px ;
+        top: 7%;
+        left: 64%;
+    }
+    .text-ft{
+        font-size: 100px;
+    }
+    #search-box:hover #search-text, 
+    #search-box #search-text:valid {
+    width: 0px;
+    padding:  0px;
+    }
+}
+ 
+/* Small Tablet */
+@media screen and (max-width: 768px){
+    .menuhead ul {
+        display: none; 
+    }
+    nav .menuhead ul li{
+        flex-direction:row;
+        text-align: center;
+        margin-top: 60px;  
+    }
+    .sticky #icon-nav{
+        display: block;
+    }
+    .menuhead ul li a{
+        font-size: 13px;
+        padding-left: 0px;
+    }
+    .logo{
+        width: 60px;
+        position: absolute;
+        left: 40%;
+        top: 10%;
+    }
+    .headerlogo b{
+        position: absolute;
+        left: 30%;
+    }
+    .header b{
+        position: absolute;
+        top:30px;
+        left: 0px;
+        color: white;
+     }
+    .menuhead ul{
+        padding-left: 0px;
+    }
+    .text-sp{
+        font-size:30px ;
+    }
+    .text-ft{
+        font-size: 120px;
+    }
+    .iconhead ul li{
+        padding-left: 4px;
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    .iconhead ul{
+        padding-left: 20px;
+        position: absolute;
+        right: 15%;
+    }
+    .sp-button{
+        font-size: 10px;
+   }
+   .banner-button{
+        font-size: 10px;
+   }
+    .btnsp-container {
+        position: absolute;
+        top: 7%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+    }
+   .text-sp{
+        font-size:25px ;
+        top: 7%;
+        left: 66%;
+    }
+    .text-ft{
+        font-size: 80px;
+    }
+    .icon1 i{
+        font-size: 35px;
+    }
+    #search-box:hover #search-text, 
+    #search-box #search-text:valid {
+    width: 0px;
+    padding:  0px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .iconhead ul li{
+        padding-left: 4px;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .text-sp{
+        font-size:20px ;
+        top: 5%;
+        left: 68%;
+    }
+    .btnsp-container {
+        position: absolute;
+        top: 5%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+    }
+}

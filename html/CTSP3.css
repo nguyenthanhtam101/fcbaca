@@ -1,0 +1,288 @@
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(14, 14, 105) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;  
+}
+body{
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+.logo{
+    width: 70px;
+    padding-top: 20px;
+}
+.menuhead ul li a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    transition: color 0.3s ease; 
+}
+.menuhead ul {
+    padding-left: 120px;
+}
+.menuhead ul li a:hover {
+    color: rgb(244, 192, 47); 
+}
+.iconhead ul li a{
+    padding-top: 150px;
+}
+.iconhead ul li:hover i{
+    color:rgb(244, 192, 47) ;
+}
+.iconhead ul{
+    padding-left: 100px;
+}
+.iconhead ul li {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.header b{
+   position: absolute;
+   top:30px;
+   left: 85px;
+   color: white;
+}
+.menuhead a{
+    text-decoration: none;
+}
+.menuhead ul li{
+    padding-top: 40px;
+}
+.headerlogo{
+    margin-left: 100px;
+}
+
+#search-box {
+    background: rgb(14, 14, 105);
+    border-radius: 25px;
+}
+
+#search-text {
+    border: none;
+    outline:none ;
+    padding: 10px 15px;
+    font-size: 12px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+} 
+
+#search-box:hover #search-text, 
+#search-box #search-text:valid {
+    width: 200px;
+    padding: 10px 0px 10px 15px;
+    z-index: 9999;
+}
+
+#search-btn {
+    background: rgb(14, 14, 105);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+#search-btn:hover #search-text{ 
+    background: #fff; 
+    color: #000; 
+}
+
+.po{
+    position: relative;
+    display: flex;
+}
+.controls {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev-btn {
+    left: 20px;
+}
+
+.next-btn {
+    right: 20px;
+}
+ /* ------------------------------------------------------------>
+<!-------------------------CTSP------------------------------->
+<!-- ----------------------------------------------------------> */
+.SP{
+    background-color: rgb(24, 23, 51);
+}
+.img-container {
+    position: relative;
+    padding-bottom: 100%; 
+    overflow: hidden;
+}
+
+.img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text-container {
+    margin-top: 0px; 
+    padding: 5px;
+}
+
+.star-row {
+    font-size: 20px; 
+}
+.star-row i {
+    margin-right: 2px; 
+}
+.imgshoe {
+    margin-bottom: 10px;
+    padding-top:10px;
+}
+.text-below-image {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.button-row {
+    margin-bottom: 10px;
+}
+
+.button-row button {
+    margin-right: 5px;
+    padding: 10px 20px; /* Điều chỉnh padding để làm to button */
+    font-size: 16px; /* Điều chỉnh kích thước chữ */
+    border-radius: 5px; /* Bo góc button */
+    transition: all 0.3s ease; /* Hiệu ứng hover */
+}
+.button-row button:hover {
+    background-color: #ccc; /* Màu nền khi di chuột */
+    color: #fff; /* Màu chữ khi di chuột */
+}
+.star-row i {
+    margin-right: 3px;
+}
+@media (min-width: 992px) {
+    .col-lg-6.imgshoe {
+        margin-bottom: 10px; 
+    }
+}
+/* ------------------------------------------------------------>
+<!-------------------------Footer------------------------------->
+<!-- ----------------------------------------------------------> */
+.footer{
+    background-color: #d3ab1f;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+    display: flex; /* Sử dụng flexbox để căn chỉnh biểu tượng và văn bản */
+    align-items: center; /* Căn chỉnh văn bản và biểu tượng theo chiều dọc */
+}
+
+.icon {
+    margin-right: 10px; /* Tạo khoảng cách giữa biểu tượng và văn bản */
+    width: 25px; /* Đảm bảo kích thước đồng đều cho tất cả các biểu tượng */
+    text-align: center; /* Căn giữa nội dung trong thẻ span */
+}
+.icon i {
+    font-size: 20px;
+}
+
+.ft1 ul {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 60px; 
+    font-size: 30px;
+}
+.ft1 .social-list {
+    margin-top: 5px; 
+}
+.ft1 b{
+    padding-left: 60px;
+    font-size: 30px;
+}
+.text-ft{
+    text-align: center;
+    font-size: 200px;
+}
+.ft2 ul {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 60px; 
+    font-size: 30px;
+}
+.ft2 b{
+    padding-left: 60px;
+    font-size: 30px;
+}
+.ft3{
+    padding-left: 25px;
+    font-size: 25px;
+}
+.ft4{
+    text-align: center;
+    background-color:#282c31;
+    padding: 25px;
+}
+.ft4 a{
+    color: white;
+    font-size: 20px;
+}
+.ft4 {
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.ft4 a {
+    margin: 0 10px; /* Khoảng cách giữa các liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: #fff8f8; /* Màu chữ */
+}
+
+.ft4 a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
+.icon1{
+    margin-right: 25px; /* Tạo khoảng cách giữa biểu tượng và văn bản */
+    width: 40px; /* Đảm bảo kích thước đồng đều cho tất cả các biểu tượng */
+    text-align: center; /* Căn giữa nội dung trong thẻ span */
+}
+.icon1 i{
+    font-size: 40px;
+}
