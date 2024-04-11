@@ -98,13 +98,13 @@
     .btnsp-container {
         position: absolute;
         top: 7%;
-        left: 41%;
+        left: 42%;
         transform: translate(-50%, -50%);
     }
    .text-sp{
         font-size:30px ;
         top: 7%;
-        left: 64%;
+        left: 65%;
     }
     .text-ft{
         font-size: 100px;
@@ -117,7 +117,7 @@
 }
  
 /* Small Tablet */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .menuhead ul {
         display: none; 
     }
@@ -197,22 +197,39 @@
     padding:  0px;
     }
 }
-
+/* Iphone */
 @media screen and (max-width: 576px){
     .iconhead ul li{
         padding-left: 4px;
         font-size: 18px;
         padding-top: 20px;
     }
+    .iconhead ul{
+        padding-left: 20px;
+        position: absolute;
+        right: 10%;
+    }
+    .header b{
+        position: absolute;
+        top:30px;
+        left: -35px;
+        color: white;
+     }
     .text-sp{
         font-size:20px ;
         top: 5%;
         left: 68%;
+    }
+    .banner-button{
+        font-size: 10px;
     }
     .btnsp-container {
         position: absolute;
         top: 5%;
         left: 42%;
         transform: translate(-50%, -50%);
+    }
+    .text-ft{
+        font-size:50px;
     }
 }
